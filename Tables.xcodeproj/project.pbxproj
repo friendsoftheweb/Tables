@@ -10,10 +10,14 @@
 		920A5DEF1BA9B9F800F33538 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 920A5DEE1BA9B9F800F33538 /* main.m */; };
 		920A5DF21BA9B9F800F33538 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 920A5DF11BA9B9F800F33538 /* AppDelegate.m */; };
 		920A5DF51BA9B9F800F33538 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920A5DF41BA9B9F800F33538 /* ViewController.m */; };
-		920A5DF81BA9B9F800F33538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 920A5DF61BA9B9F800F33538 /* Main.storyboard */; };
 		920A5DFB1BA9B9F800F33538 /* Tables.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 920A5DF91BA9B9F800F33538 /* Tables.xcdatamodeld */; };
 		920A5DFD1BA9B9F800F33538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920A5DFC1BA9B9F800F33538 /* Assets.xcassets */; };
-		920A5E001BA9B9F800F33538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 920A5DFE1BA9B9F800F33538 /* LaunchScreen.storyboard */; };
+		920A5E0B1BA9BCDF00F33538 /* Task+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 920A5E081BA9BCDF00F33538 /* Task+CoreDataProperties.m */; };
+		920A5E0C1BA9BCDF00F33538 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 920A5E0A1BA9BCDF00F33538 /* Task.m */; };
+		920A5E101BA9BD1000F33538 /* TaskGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 920A5E0F1BA9BD1000F33538 /* TaskGenerator.m */; };
+		92AA3C001BA9C0BD00105133 /* NSArray+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AA3BFF1BA9C0BD00105133 /* NSArray+Random.m */; };
+		92AA3C031BA9C13300105133 /* NSDate+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AA3C021BA9C13300105133 /* NSDate+Random.m */; };
+		92EB86581BA9CBD800B08EBB /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92EB86571BA9CBD800B08EBB /* Launch Screen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +27,20 @@
 		920A5DF11BA9B9F800F33538 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		920A5DF31BA9B9F800F33538 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		920A5DF41BA9B9F800F33538 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		920A5DF71BA9B9F800F33538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		920A5DFA1BA9B9F800F33538 /* Tables.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tables.xcdatamodel; sourceTree = "<group>"; };
 		920A5DFC1BA9B9F800F33538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		920A5DFF1BA9B9F800F33538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		920A5E011BA9B9F800F33538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		920A5E071BA9BCDF00F33538 /* Task+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Task+CoreDataProperties.h"; sourceTree = "<group>"; };
+		920A5E081BA9BCDF00F33538 /* Task+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Task+CoreDataProperties.m"; sourceTree = "<group>"; };
+		920A5E091BA9BCDF00F33538 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		920A5E0A1BA9BCDF00F33538 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		920A5E0E1BA9BD1000F33538 /* TaskGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskGenerator.h; sourceTree = "<group>"; };
+		920A5E0F1BA9BD1000F33538 /* TaskGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskGenerator.m; sourceTree = "<group>"; };
+		92AA3BFE1BA9C0BD00105133 /* NSArray+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Random.h"; sourceTree = "<group>"; };
+		92AA3BFF1BA9C0BD00105133 /* NSArray+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Random.m"; sourceTree = "<group>"; };
+		92AA3C011BA9C13300105133 /* NSDate+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Random.h"; sourceTree = "<group>"; };
+		92AA3C021BA9C13300105133 /* NSDate+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Random.m"; sourceTree = "<group>"; };
+		92EB86571BA9CBD800B08EBB /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,12 +77,18 @@
 				920A5DF11BA9B9F800F33538 /* AppDelegate.m */,
 				920A5DF31BA9B9F800F33538 /* ViewController.h */,
 				920A5DF41BA9B9F800F33538 /* ViewController.m */,
-				920A5DF61BA9B9F800F33538 /* Main.storyboard */,
+				920A5E0E1BA9BD1000F33538 /* TaskGenerator.h */,
+				920A5E0F1BA9BD1000F33538 /* TaskGenerator.m */,
+				920A5E0D1BA9BCF700F33538 /* Model */,
 				920A5DFC1BA9B9F800F33538 /* Assets.xcassets */,
-				920A5DFE1BA9B9F800F33538 /* LaunchScreen.storyboard */,
 				920A5E011BA9B9F800F33538 /* Info.plist */,
 				920A5DF91BA9B9F800F33538 /* Tables.xcdatamodeld */,
 				920A5DED1BA9B9F800F33538 /* Supporting Files */,
+				92AA3BFE1BA9C0BD00105133 /* NSArray+Random.h */,
+				92AA3BFF1BA9C0BD00105133 /* NSArray+Random.m */,
+				92AA3C011BA9C13300105133 /* NSDate+Random.h */,
+				92AA3C021BA9C13300105133 /* NSDate+Random.m */,
+				92EB86571BA9CBD800B08EBB /* Launch Screen.xib */,
 			);
 			path = Tables;
 			sourceTree = "<group>";
@@ -80,6 +99,17 @@
 				920A5DEE1BA9B9F800F33538 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		920A5E0D1BA9BCF700F33538 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				920A5E071BA9BCDF00F33538 /* Task+CoreDataProperties.h */,
+				920A5E081BA9BCDF00F33538 /* Task+CoreDataProperties.m */,
+				920A5E091BA9BCDF00F33538 /* Task.h */,
+				920A5E0A1BA9BCDF00F33538 /* Task.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +169,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				920A5E001BA9B9F800F33538 /* LaunchScreen.storyboard in Resources */,
 				920A5DFD1BA9B9F800F33538 /* Assets.xcassets in Resources */,
-				920A5DF81BA9B9F800F33538 /* Main.storyboard in Resources */,
+				92EB86581BA9CBD800B08EBB /* Launch Screen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,32 +182,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				920A5DF51BA9B9F800F33538 /* ViewController.m in Sources */,
+				920A5E0B1BA9BCDF00F33538 /* Task+CoreDataProperties.m in Sources */,
+				920A5E101BA9BD1000F33538 /* TaskGenerator.m in Sources */,
+				92AA3C031BA9C13300105133 /* NSDate+Random.m in Sources */,
 				920A5DF21BA9B9F800F33538 /* AppDelegate.m in Sources */,
 				920A5DFB1BA9B9F800F33538 /* Tables.xcdatamodeld in Sources */,
+				920A5E0C1BA9BCDF00F33538 /* Task.m in Sources */,
 				920A5DEF1BA9B9F800F33538 /* main.m in Sources */,
+				92AA3C001BA9C0BD00105133 /* NSArray+Random.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		920A5DF61BA9B9F800F33538 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				920A5DF71BA9B9F800F33538 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		920A5DFE1BA9B9F800F33538 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				920A5DFF1BA9B9F800F33538 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		920A5E021BA9B9F800F33538 /* Debug */ = {
@@ -266,6 +281,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tables/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.friendsoftheweb.Tables;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -277,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tables/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.friendsoftheweb.Tables;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +319,7 @@
 				920A5E061BA9B9F800F33538 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
